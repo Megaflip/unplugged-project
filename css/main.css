@@ -775,6 +775,9 @@ input[type=button] {
     font-size: 1.875em;
   }
 
+  .map figure {
+    padding-bottom: 38%; 
+  }
 
 
 
