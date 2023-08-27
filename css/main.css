@@ -665,6 +665,9 @@ input[type=button] {
     font-size: 1.5em;
   }
 
+  .map figure {
+    padding-bottom: 46%; 
+  }
 
   /* ==========================================================================
    FAQ Page
