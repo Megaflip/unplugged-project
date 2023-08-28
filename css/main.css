@@ -219,9 +219,19 @@ footer .contact {
 
 footer .social-icons {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+footer .social-icons p {
+  display:flex;
+  justify-content: center;
   align-items: center;
   background-color: #527158;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
 }
 
 footer .footer-content h4 {
@@ -231,6 +241,8 @@ footer .footer-content h4 {
 
 footer .copyright {
   margin: 20px 0;
+  font-weight: bold;
+  padding: 20px 0 20px 0;
 }
 
 /*---------- Mobile Styles ----------*/
@@ -311,9 +323,14 @@ input[type=button] {
 
 .features .features-items {
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
   flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.features .features-items i {
+  display: flex;
+  justify-content: center;
 }
 
 .features p {
