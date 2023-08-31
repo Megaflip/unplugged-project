@@ -121,6 +121,7 @@ h2 {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 1.875em;
+  margin: 0;
 }
 
 h3,
@@ -161,6 +162,7 @@ header {
   /*---- main x axis -----*/
   /***** this overrides the margin in the content wrapper above*****/
   background-color: #202322;
+  padding: 15px 0;
 }
 
 header .content-wrapper {
@@ -172,7 +174,8 @@ header .content-wrapper {
   /***** this overrides the margin in the content wrapper above*****/
 }
 
-header h1 { /* This zeros out the browser's default margin */
+header h1 {
+  /* This zeros out the browser's default margin */
   margin: 0;
 }
 
@@ -213,16 +216,13 @@ footer {
   background-color: #202322;
 }
 
-footer p {
-  margin-bottom: 50px;
-}
-
 footer .content-wrapper {
   width: 55%;
+  margin: 0;
 }
 
 footer .contact {
-  padding: 20px 0;
+  margin-bottom: 50px;
 }
 
 footer h4 {
@@ -232,8 +232,7 @@ footer h4 {
 }
 
 footer p {
-  font-size: 0.875;
-  line-height: 1.125;
+  margin: 0;
 }
 
 footer address {
@@ -245,7 +244,6 @@ footer .social-icons {
   justify-content: space-evenly;
   align-items: center;
   margin: 0;
-  font-size: 1.3125px;
 }
 
 footer .social-icons p {
@@ -256,17 +254,23 @@ footer .social-icons p {
   border-radius: 50%;
   width: 40px;
   height: 40px;
+  margin: 0;
+}
+
+footer .social-icons p i {
+  font-size: 1.3125em;
 }
 
 footer .footer-content h4 {
-  font-size: 1.125em;
+  font-size: 1.5em;
   font-weight: 500;
   margin: 20px 0;
 }
 
 footer .copyright {
-  margin: 20px 0;
-  font-weight: bold;
+  margin-top: 50px;
+  padding: 20px 0;
+  font-weight: 500;
 }
 
 /*---------- Mobile Styles ----------*/
@@ -279,7 +283,6 @@ footer .copyright {
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
-  padding: 50px 0;
 }
 
 .hero-area h1 {
@@ -304,23 +307,16 @@ aside {
   display: flex;
   justify-content: center;
   background-color: #527158;
-  padding: 50px 0;
 }
 
 aside .content-wrapper {
-  margin: 0;
+  padding: 30px 0;
 }
 
 aside h3 {
-  padding: 20px 0;
-  margin: 0;
+  margin-top: 30px;
   font-size: 1.125em;
-  font-weight: 500;
-}
-
-aside .form-description {
-  padding-bottom: 30px;
-  margin: 0;
+  font-weight: 500
 }
 
 aside input {
@@ -699,8 +695,8 @@ input[type=button] {
     line-height: 30px;
   }
 
-  /* Aside */
-  aside .content-wrapper {
+   /* Aside */
+   aside .content-wrapper {
     margin: 50px 0;
     display: flex;
     justify-content: space-between;
@@ -912,6 +908,7 @@ input[type=button] {
   h3,
   h4 {
     font-size: 1.875em;
+    margin: 20px 0;
   }
 
   p {
@@ -932,11 +929,16 @@ input[type=button] {
   /* Aside */
   aside .content-wrapper {
     justify-content: space-around;
+    margin: 30px 0 40px 0;
   }
 
   aside .content-wrapper .form-description,
   aside .content-wrapper .form {
     width: 30%;
+  }
+
+  aside h3 {
+    margin: 20px 0;
   }
 
   .form-description {
@@ -958,8 +960,6 @@ input[type=button] {
     padding-bottom: 50px;
     font-size: 2.25em;
   }
-
-  .reviews figure {}
 
   .reviews article div {
     width: 42%;
