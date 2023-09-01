@@ -217,12 +217,12 @@ footer {
 }
 
 footer .content-wrapper {
-  width: 55%;
+  width: 67%;
   margin: 0;
 }
 
 footer .contact {
-  margin-bottom: 50px;
+  margin: 50px 0;
 }
 
 footer h4 {
@@ -621,6 +621,7 @@ input[type=button] {
   /* General styles here */
   .content-wrapper {
     max-width: 640px;
+    margin: 100px 0;
   }
 
   h2 {
@@ -657,6 +658,18 @@ input[type=button] {
 
   .header-divider {
     display: none;
+  }
+
+  footer .content-wrapper {
+    margin: 0;
+  }
+  
+  footer .footer-content h4 {
+    margin-bottom; 40px
+  }
+
+  footer .contact {
+    margin-bottom: 0;
   }
 
   footer .contact h4 {
